@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.vber.sprFineArtsEvents.config.AppConfig",
+      "sourceType": "com.vber.sprFineArtsEvents.config.AppConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.url",
+      "type": "java.lang.String",
+      "sourceType": "com.vber.sprFineArtsEvents.config.AppConfig"
+    }
+  ],
+  "hints": []
+}
