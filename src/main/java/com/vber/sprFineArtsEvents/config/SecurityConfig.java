@@ -44,6 +44,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                      "/webjars/**")
                      .permitAll()
         .antMatchers(HttpMethod.GET, "/actuator/health").permitAll()
+        .antMatchers("/db").permitAll()
       .anyRequest()
         .authenticated()
     ;
