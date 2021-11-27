@@ -1,0 +1,4 @@
+com\vber\sprFineArtsEvents\repository\EventRepositoryTest.class
+com\vber\sprFineArtsEvents\SprFineArtsEventsApplicationTests.class
+com\vber\sprFineArtsEvents\service\EventsServiceTest.class
+com\vber\sprFineArtsEvents\controller\EventsControllerTest.class
