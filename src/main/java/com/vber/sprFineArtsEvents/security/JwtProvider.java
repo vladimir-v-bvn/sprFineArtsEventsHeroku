@@ -39,8 +39,8 @@ public class JwtProvider {
 
   private org.slf4j.Logger LOG = LoggerFactory.getLogger(JwtProvider.class);
   
-  @Value("${jwt.expiration.time}")
-  private Long jwtExpirationInMillis;
+//@Value("${jwt.expiration.time}")
+  private Long jwtExpirationInMillis = 9876543210L;
   
 //private Key key;
   private KeyStore keyStore;
